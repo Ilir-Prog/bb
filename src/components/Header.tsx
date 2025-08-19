@@ -64,12 +64,12 @@ const Header: React.FC = () => {
           {/* CTA Button */}
           <div className="hidden md:flex items-center space-x-2">
             <LanguageSelector />
-            <a
-              href="tel:+41213111532"
+            <Link
+              to="/contact"
               className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-6 py-2 rounded-lg font-semibold hover:from-blue-700 hover:to-indigo-700 transition-all duration-200 transform hover:scale-105 shadow-lg hover:shadow-xl"
             >
               {t('nav.book')}
-            </a>
+            </Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -100,12 +100,13 @@ const Header: React.FC = () => {
                 {item.name}
               </Link>
             ))}
-            <a
-              href="tel:+41213111532"
+            <Link
+              to="/contact"
+              onClick={() => setIsMenuOpen(false)}
               className="block bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-4 py-3 rounded-lg font-semibold text-center mt-4"
             >
               {t('nav.book')}
-            </a>
+            </Link>
             <div className="mt-4 px-4">
               <LanguageSelector />
             </div>
