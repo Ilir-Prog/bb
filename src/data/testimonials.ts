@@ -16,9 +16,15 @@ export const testimonials: Testimonial[] = [
     rating: 5,
     image: "https://lh3.googleusercontent.com/a-/ALV-UjWkPeNdzyCDW11O4Y5TrMb00SsA74te0dvIEOOAgf_qgxVgbfBi=w90-h90-p-rp-mo-ba3-br100"
   },
-  
+  id: 2,
+    name: "Christinat Axel",
+    role: "Client régulier",
+    content: "Fast pick-up without reservation, impeccable and tailor-made cut! The barber team is super cool. I recommend",
+    rating: 5,
+    image: "https://lh3.googleusercontent.com/a-/ALV-UjUuwHljpOP57ZtJSpQlFyMdDBWC6ymoUgGLOKXVmrGuuIa1FzGA=w90-h90-p-rp-mo-ba4-br100"
+  },
   {
-    id: 2,
+    id: 3,
     name: "Christinat Axel",
     role: "Client régulier",
     content: "Fast pick-up without reservation, impeccable and tailor-made cut! The barber team is super cool. I recommend",
@@ -26,7 +32,7 @@ export const testimonials: Testimonial[] = [
     image: "https://lh3.googleusercontent.com/a-/ALV-UjV8zI4SO72a-cJlcasp0XTqL37d9-5o87ibFC3GMAAVRsA7XqE=w90-h90-p-rp-mo-br100"
   },
   {
-    id: 3,
+    id: 4,
     name: "Abdellatif ROUCHDI",
     role: "Client régulier",
     content: "Best barber in Lausanne. Quick and always with smile!",
@@ -34,7 +40,7 @@ export const testimonials: Testimonial[] = [
     image: "https://lh3.googleusercontent.com/a-/ALV-UjXx00GKpcwIhBQu-qZJxih_1zyEp9BynbXDTZyQrz14-XlllfWlZg=w90-h90-p-rp-mo-br100"
   },
   {
-    id: 4,
+    id: 5,
     name: "Trey Davis",
     role: "Client régulier",
     content: "The gentleman is very friendly and the atmosphere is good. The haircut was a success!",
@@ -42,7 +48,7 @@ export const testimonials: Testimonial[] = [
     image: ""
   },
   {
-    id: 5,
+    id: 6,
     name: "Daniel Cardoso",
     role: "Client régulier",
     content: "Top notch, friendly barbers. Top notch service.",
