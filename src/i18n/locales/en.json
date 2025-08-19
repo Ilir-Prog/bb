@@ -77,16 +77,6 @@
       },
       "price": "from 15 CHF"
     },
-    "shave": {
-      "title": "Traditional Shave",
-      "description": "Old-fashioned shave with hot towel and premium products",
-      "features": {
-        "towel": "Hot towel",
-        "razor": "Traditional razor",
-        "aftercare": "After-shave care"
-      },
-      "price": "from 40 CHF"
-    },
     "complete": {
       "title": "Complete Service",
       "description": "Haircut + beard + care for a perfect look",
