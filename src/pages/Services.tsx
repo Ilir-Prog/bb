@@ -204,15 +204,15 @@ const Services: React.FC = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             {[
-              { step: '01', title: t('services.process.consultation.title'), description: t('services.process.consultation.description') },
-              { step: '02', title: t('services.process.preparation.title'), description: t('services.process.preparation.description') },
-              { step: '03', title: t('services.process.execution.title'), description: t('services.process.execution.description') },
-              { step: '04', title: t('services.process.finishing.title'), description: t('services.process.finishing.description') }
+              { icon: 'psychology', title: t('services.process.consultation.title'), description: t('services.process.consultation.description') },
+              { icon: 'spa', title: t('services.process.preparation.title'), description: t('services.process.preparation.description') },
+              { icon: 'content_cut', title: t('services.process.execution.title'), description: t('services.process.execution.description') },
+              { icon: 'auto_awesome', title: t('services.process.finishing.title'), description: t('services.process.finishing.description') }
             ].map((process, index) => (
               <AnimatedSection key={index} animation="fadeInUp" delay={index * 150}>
                 <div className="text-center">
-                  <div className="bg-gradient-to-r from-blue-500 to-indigo-500 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold text-white">
-                    {process.step}
+                  <div className="bg-gradient-to-r from-blue-500 to-indigo-500 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <MaterialIcon name={process.icon} className="text-white" size="large" />
                   </div>
                   <h3 className="text-xl font-bold text-white mb-2">{process.title}</h3>
                   <p className="text-gray-300">{process.description}</p>
