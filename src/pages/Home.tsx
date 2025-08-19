@@ -43,7 +43,7 @@ const Home: React.FC = () => {
       <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-900 via-blue-900 to-indigo-900 overflow-hidden">
         <div className="absolute inset-0 bg-black/20"></div>
         <div 
-          className="absolute inset-0 opacity-10"
+          className="absolute inset-0 opacity-50"
           style={{
             backgroundImage: 'url("https://images.pexels.com/photos/1319460/pexels-photo-1319460.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop")',
             backgroundSize: 'cover',
