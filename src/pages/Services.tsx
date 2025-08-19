@@ -201,7 +201,7 @@ const Services: React.FC = () => {
             ].map((process, index) => (
               <AnimatedSection key={index} animation="fadeInUp" delay={index * 150}>
                 <div className="text-center">
-                  <div className="bg-gradient-to-r from-blue-500 to-indigo-500 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <div className="bg-gradient-to-r from-blue-500 to-indigo-500 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 hover:scale-110 hover:rotate-12 transition-all duration-300 cursor-pointer">
                     <MaterialIcon name={process.icon} className="text-white" size="large" />
                   </div>
                   <h3 className="text-xl font-bold text-white mb-2">{process.title}</h3>
