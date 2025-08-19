@@ -107,10 +107,10 @@ const Services: React.FC = () => {
       {/* Main Services */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-stretch">
             {services.map((service, index) => (
               <AnimatedSection key={index} animation="fadeInUp" delay={index * 100}>
-                <div className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 overflow-hidden">
+                <div className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 overflow-hidden h-full flex flex-col">
                   <div className="relative h-48 overflow-hidden">
                     <img 
                       src={service.image} 
@@ -125,11 +125,11 @@ const Services: React.FC = () => {
                     </div>
                   </div>
                   
-                  <div className="p-6 flex flex-col h-full">
+                  <div className="p-6 flex flex-col flex-grow">
                     <h3 className="text-2xl font-bold text-gray-900 mb-3">{service.title}</h3>
                     <p className="text-gray-600 mb-4 leading-relaxed">{service.description}</p>
                     
-                    <ul className="space-y-2 flex-grow">
+                    <ul className="space-y-2 flex-grow mb-4">
                       {service.features.map((feature, idx) => (
                         <li key={idx} className="flex items-center text-gray-700">
                           <MaterialIcon name="check_circle" className="text-green-500 mr-2" size="small" />
@@ -137,6 +137,9 @@ const Services: React.FC = () => {
                         </li>
                       ))}
                     </ul>
+                    
+                    <div className="mt-auto">
+                    </div>
                   </div>
                 </div>
               </AnimatedSection>
