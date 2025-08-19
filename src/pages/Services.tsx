@@ -32,18 +32,6 @@ const Services: React.FC = () => {
       image: 'https://images.unsplash.com/photo-1635273051839-003bf06a8751?ixid=M3wzOTE5Mjl8MHwxfHNlYXJjaHwxM3x8YmFyYmVyfGVufDB8fHx8MTcwMTY4NzA2Mnww&ixlib=rb-4.0.3&auto=format&fit=crop&w=656&h=630'
     },
     {
-      icon: 'spa',
-      title: t('services.shave.title'),
-      description: t('services.shave.description'),
-      features: [
-        t('services.shave.features.towel'),
-        t('services.shave.features.razor'),
-        t('services.shave.features.aftercare')
-      ],
-      price: t('services.shave.price'),
-      image: 'https://images.pexels.com/photos/1570807/pexels-photo-1570807.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop'
-    },
-    {
       icon: 'auto_awesome',
       title: t('services.complete.title'),
       description: t('services.complete.description'),
