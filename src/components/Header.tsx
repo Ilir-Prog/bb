@@ -35,13 +35,11 @@ const Header: React.FC = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2 group">
-            <div className="bg-gradient-to-r from-blue-600 to-indigo-600 p-2 rounded-lg group-hover:scale-105 transition-transform duration-200">
-              <MaterialIcon name="content_cut" className="text-white" size="medium" />
-            </div>
-            <div>
-              <h1 className="text-xl font-bold text-gray-900">Barber Metropole</h1>
-              <p className="text-xs text-gray-600">Lausanne</p>
-            </div>
+            <img 
+              src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=198,fit=crop,q=95/AzG8MM0DWGu7eykq/nb-removebg-preview-mp8644ePn4iy67wm.png"
+              alt="Barber Metropole Lausanne"
+              className="h-12 w-auto group-hover:scale-105 transition-transform duration-200"
+            />
           </Link>
 
           {/* Desktop Navigation */}
