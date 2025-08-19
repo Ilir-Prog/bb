@@ -18,7 +18,7 @@ export const testimonials: Testimonial[] = [
   },
   {
   id: 2,
-    name: "Christinat Axel",
+    name: "Walter Ferrari",
     role: "Client régulier",
     content: "Very efficient barber with a warm welcome, and a good price for a cut of CHF 25.- Ideal if you're looking for good value for money     in the center of Lausanne.",
     rating: 5,
