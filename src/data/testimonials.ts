@@ -10,7 +10,7 @@ export interface Testimonial {
 export const testimonials: Testimonial[] = [
   {
     id: 1,
-    name: "Marc Dubois",
+    name: "Abdellatif ROUCHDI",
     role: "Client régulier",
     content: "Service exceptionnel ! L'équipe est très professionnelle et l'ambiance est parfaite. Je recommande vivement.",
     rating: 5,
