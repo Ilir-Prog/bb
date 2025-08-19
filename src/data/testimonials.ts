@@ -12,7 +12,7 @@ export const testimonials: Testimonial[] = [
     id: 1,
     name: "Abdellatif ROUCHDI",
     role: "Client régulier",
-    content: "Service exceptionnel ! L'équipe est très professionnelle et l'ambiance est parfaite. Je recommande vivement.",
+    content: "Best barber in Lausanne. Quick and always with smile!",
     rating: 5,
     image: "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop"
   },
