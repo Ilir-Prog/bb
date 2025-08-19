@@ -18,8 +18,8 @@ export const testimonials: Testimonial[] = [
   },
   {
     id: 2,
-    name: "Thomas Weber",
-    role: "Étudiant EPFL",
+    name: "gAUTHIER r",
+    role: "",
     content: "Excellent rapport qualité-prix pour les étudiants. Coupe moderne et service rapide. Parfait !",
     rating: 5,
     image: "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop"
