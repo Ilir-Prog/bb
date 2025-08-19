@@ -20,7 +20,7 @@ export const testimonials: Testimonial[] = [
   id: 2,
     name: "Christinat Axel",
     role: "Client régulier",
-    content: "Fast pick-up without reservation, impeccable and tailor-made cut! The barber team is super cool. I recommend",
+    content: "Very efficient barber with a warm welcome, and a good price for a cut of CHF 25.- Ideal if you're looking for good value for money     in the center of Lausanne.",
     rating: 5,
     image: "https://lh3.googleusercontent.com/a-/ALV-UjUuwHljpOP57ZtJSpQlFyMdDBWC6ymoUgGLOKXVmrGuuIa1FzGA=w90-h90-p-rp-mo-ba4-br100"
   },
