@@ -138,11 +138,11 @@ const Services: React.FC = () => {
                     </div>
                   </div>
                   
-                  <div className="p-6">
+                  <div className="p-6 flex flex-col h-full">
                     <h3 className="text-2xl font-bold text-gray-900 mb-3">{service.title}</h3>
                     <p className="text-gray-600 mb-4 leading-relaxed">{service.description}</p>
                     
-                    <ul className="space-y-2 mb-6">
+                    <ul className="space-y-2 flex-grow">
                       {service.features.map((feature, idx) => (
                         <li key={idx} className="flex items-center text-gray-700">
                           <MaterialIcon name="check_circle" className="text-green-500 mr-2" size="small" />
