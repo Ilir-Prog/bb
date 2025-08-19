@@ -22,7 +22,7 @@ export const testimonials: Testimonial[] = [
     role: "Client régulier",
     content: "Fast pick-up without reservation, impeccable and tailor-made cut! The barber team is super cool. I recommend",
     rating: 5,
-    image: "https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop"
+    image: "https://lh3.googleusercontent.com/a-/ALV-UjV8zI4SO72a-cJlcasp0XTqL37d9-5o87ibFC3GMAAVRsA7XqE=w90-h90-p-rp-mo-br100"
   },
   {
     id: 1,
@@ -30,7 +30,7 @@ export const testimonials: Testimonial[] = [
     role: "Client régulier",
     content: "Best barber in Lausanne. Quick and always with smile!",
     rating: 5,
-    image: "https://lh3.googleusercontent.com/a-/ALV-UjV8zI4SO72a-cJlcasp0XTqL37d9-5o87ibFC3GMAAVRsA7XqE=w90-h90-p-rp-mo-br100"
+    image: "https://lh3.googleusercontent.com/a-/ALV-UjXx00GKpcwIhBQu-qZJxih_1zyEp9BynbXDTZyQrz14-XlllfWlZg=w90-h90-p-rp-mo-br100"
   },
   
 ];
