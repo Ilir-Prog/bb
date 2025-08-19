@@ -32,5 +32,13 @@ export const testimonials: Testimonial[] = [
     rating: 5,
     image: "https://lh3.googleusercontent.com/a-/ALV-UjXx00GKpcwIhBQu-qZJxih_1zyEp9BynbXDTZyQrz14-XlllfWlZg=w90-h90-p-rp-mo-br100"
   },
+  {
+    id: 1,
+    name: "Trey Davis",
+    role: "Client régulier",
+    content: "The gentleman is very friendly and the atmosphere is good. The haircut was a success!",
+    rating: 5,
+    image: ""
+  },
   
 ];
