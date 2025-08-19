@@ -1,11 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import { MaterialIcon } from './MaterialIcon';
+import LanguageSelector from './LanguageSelector';
 
 const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const location = useLocation();
+  const { t } = useTranslation();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -17,11 +20,11 @@ const Header: React.FC = () => {
   }, []);
 
   const navItems = [
-    { name: 'Accueil', path: '/' },
-    { name: 'Services', path: '/services' },
-    { name: 'À Propos', path: '/about' },
-    { name: 'Tarifs', path: '/pricing' },
-    { name: 'Contact', path: '/contact' },
+    { name: t('nav.home'), path: '/' },
+    { name: t('nav.services'), path: '/services' },
+    { name: t('nav.about'), path: '/about' },
+    { name: t('nav.pricing'), path: '/pricing' },
+    { name: t('nav.contact'), path: '/contact' },
   ];
 
   return (
@@ -59,12 +62,13 @@ const Header: React.FC = () => {
           </nav>
 
           {/* CTA Button */}
-          <div className="hidden md:flex items-center space-x-4">
+          <div className="hidden md:flex items-center space-x-2">
+            <LanguageSelector />
             <a
               href="tel:+41213111532"
               className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-6 py-2 rounded-lg font-semibold hover:from-blue-700 hover:to-indigo-700 transition-all duration-200 transform hover:scale-105 shadow-lg hover:shadow-xl"
             >
-              Réserver
+              {t('nav.book')}
             </a>
           </div>
 
@@ -100,8 +104,11 @@ const Header: React.FC = () => {
               href="tel:+41213111532"
               className="block bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-4 py-3 rounded-lg font-semibold text-center mt-4"
             >
-              Réserver Maintenant
+              {t('nav.book')}
             </a>
+            <div className="mt-4 px-4">
+              <LanguageSelector />
+            </div>
           </div>
         </div>
       </div>

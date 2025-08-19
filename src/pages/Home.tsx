@@ -1,37 +1,40 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import { AnimatedSection } from '../components/AnimatedSection';
 import { MaterialIcon } from '../components/MaterialIcon';
 
 const Home: React.FC = () => {
+  const { t } = useTranslation();
+
   const features = [
     {
       icon: 'content_cut',
-      title: 'Coupes Modernes',
-      description: 'Styles contemporains et classiques adaptés à votre personnalité'
+      title: t('home.features.modern.title'),
+      description: t('home.features.modern.description')
     },
     {
       icon: 'face',
-      title: 'Soins Barbe',
-      description: 'Taille, modelage et soins premium pour votre barbe'
+      title: t('home.features.beard.title'),
+      description: t('home.features.beard.description')
     },
     {
       icon: 'schedule',
-      title: 'Service Rapide',
-      description: 'Rendez-vous flexibles et service efficace'
+      title: t('home.features.fast.title'),
+      description: t('home.features.fast.description')
     },
     {
       icon: 'star',
-      title: 'Expertise',
-      description: 'Plus de 10 ans d\'expérience dans l\'art de la coiffure masculine'
+      title: t('home.features.expertise.title'),
+      description: t('home.features.expertise.description')
     }
   ];
 
   const stats = [
-    { number: '500+', label: 'Clients Satisfaits' },
-    { number: '10+', label: 'Années d\'Expérience' },
-    { number: '3', label: 'Barbiers Experts' },
-    { number: '15+', label: 'Services Proposés' }
+    { number: '500+', label: t('home.stats.clients') },
+    { number: '10+', label: t('home.stats.experience') },
+    { number: '3', label: t('home.stats.experts') },
+    { number: '15+', label: t('home.stats.services') }
   ];
 
   return (
@@ -51,17 +54,16 @@ const Home: React.FC = () => {
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <AnimatedSection animation="fadeInUp">
             <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
-              Barber
+              {t('home.hero.title').split(' ')[0]}
               <span className="block bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">
-                Metropole
+                {t('home.hero.title').split(' ')[1]}
               </span>
             </h1>
           </AnimatedSection>
           
           <AnimatedSection animation="fadeInUp" delay={200}>
             <p className="text-xl md:text-2xl text-gray-200 mb-8 max-w-3xl mx-auto leading-relaxed">
-              L'art de la coiffure masculine à Lausanne. Style, tradition et modernité 
-              dans un cadre professionnel et chaleureux.
+              {t('home.hero.subtitle')}
             </p>
           </AnimatedSection>
           
@@ -72,14 +74,14 @@ const Home: React.FC = () => {
                 className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-8 py-4 rounded-xl font-bold text-lg hover:from-blue-700 hover:to-indigo-700 transition-all duration-300 transform hover:scale-105 shadow-2xl hover:shadow-blue-500/25 flex items-center space-x-2"
               >
                 <MaterialIcon name="phone" />
-                <span>Réserver Maintenant</span>
+                <span>{t('home.hero.bookNow')}</span>
               </a>
               <Link
                 to="/services"
                 className="border-2 border-white text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-white hover:text-gray-900 transition-all duration-300 flex items-center space-x-2"
               >
                 <MaterialIcon name="visibility" />
-                <span>Nos Services</span>
+                <span>{t('home.hero.ourServices')}</span>
               </Link>
             </div>
           </AnimatedSection>
@@ -100,10 +102,10 @@ const Home: React.FC = () => {
           <AnimatedSection animation="fadeInUp">
             <div className="text-center mb-16">
               <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-                Pourquoi Nous Choisir ?
+                {t('home.features.title')}
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                Une expérience unique alliant savoir-faire traditionnel et techniques modernes
+                {t('home.features.subtitle')}
               </p>
             </div>
           </AnimatedSection>
@@ -145,10 +147,10 @@ const Home: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <AnimatedSection animation="fadeInUp">
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-              Prêt pour un Nouveau Style ?
+              {t('home.cta.title')}
             </h2>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-              Prenez rendez-vous dès aujourd'hui et découvrez l'excellence de nos services
+              {t('home.cta.subtitle')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
@@ -156,14 +158,14 @@ const Home: React.FC = () => {
                 className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-8 py-4 rounded-xl font-bold text-lg hover:from-blue-700 hover:to-indigo-700 transition-all duration-300 transform hover:scale-105 shadow-2xl flex items-center justify-center space-x-2"
               >
                 <MaterialIcon name="phone" />
-                <span>+41 21 311 15 32</span>
+                <span>{t('home.cta.phone')}</span>
               </a>
               <Link
                 to="/contact"
                 className="border-2 border-blue-500 text-blue-400 px-8 py-4 rounded-xl font-bold text-lg hover:bg-blue-500 hover:text-white transition-all duration-300 flex items-center justify-center space-x-2"
               >
                 <MaterialIcon name="location_on" />
-                <span>Nous Trouver</span>
+                <span>{t('home.cta.findUs')}</span>
               </Link>
             </div>
           </AnimatedSection>

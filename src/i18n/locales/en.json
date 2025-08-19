@@ -1,0 +1,405 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "pricing": "Pricing",
+    "contact": "Contact",
+    "book": "Book Now"
+  },
+  "languages": {
+    "de": "Deutsch",
+    "en": "English",
+    "fr": "Français"
+  },
+  "home": {
+    "hero": {
+      "title": "Barber Metropole",
+      "subtitle": "The art of men's hairdressing in Lausanne. Style, tradition and modernity in a professional and warm environment.",
+      "bookNow": "Book Now",
+      "ourServices": "Our Services"
+    },
+    "features": {
+      "title": "Why Choose Us?",
+      "subtitle": "A unique experience combining traditional craftsmanship with modern techniques",
+      "modern": {
+        "title": "Modern Cuts",
+        "description": "Contemporary and classic styles adapted to your personality"
+      },
+      "beard": {
+        "title": "Beard Care",
+        "description": "Cutting, shaping and premium care for your beard"
+      },
+      "fast": {
+        "title": "Fast Service",
+        "description": "Flexible appointments and efficient service"
+      },
+      "expertise": {
+        "title": "Expertise",
+        "description": "Over 10 years of experience in the art of men's hairdressing"
+      }
+    },
+    "stats": {
+      "clients": "Satisfied Clients",
+      "experience": "Years of Experience",
+      "experts": "Expert Barbers",
+      "services": "Services Offered"
+    },
+    "cta": {
+      "title": "Ready for a New Style?",
+      "subtitle": "Book an appointment today and discover the excellence of our services",
+      "phone": "+41 21 311 15 32",
+      "findUs": "Find Us"
+    }
+  },
+  "services": {
+    "hero": {
+      "title": "Our Services",
+      "subtitle": "Discover our complete range of men's hairdressing services, combining tradition and modernity for an exceptional result."
+    },
+    "haircut": {
+      "title": "Men's Haircut",
+      "description": "Modern or classic cut adapted to your style and face shape",
+      "features": {
+        "consultation": "Personal consultation",
+        "shampoo": "Shampoo included",
+        "precision": "Precise finishing"
+      },
+      "price": "from 35 CHF"
+    },
+    "beard": {
+      "title": "Beard Trimming",
+      "description": "Professional shaping and care of your beard",
+      "features": {
+        "precision": "Precise cut",
+        "care": "Moisturizing care",
+        "advice": "Care tips"
+      },
+      "price": "from 25 CHF"
+    },
+    "shave": {
+      "title": "Traditional Shave",
+      "description": "Old-fashioned shave with hot towel and premium products",
+      "features": {
+        "towel": "Hot towel",
+        "razor": "Traditional razor",
+        "aftercare": "After-shave care"
+      },
+      "price": "from 40 CHF"
+    },
+    "complete": {
+      "title": "Complete Service",
+      "description": "Haircut + beard + care for a perfect look",
+      "features": {
+        "haircut": "Personalized cut",
+        "beard": "Beard trimming",
+        "premium": "Premium care"
+      },
+      "price": "from 50 CHF"
+    },
+    "student": {
+      "title": "Student Rate",
+      "description": "Special cut for students with valid ID",
+      "features": {
+        "price": "Preferential price",
+        "quality": "Same quality",
+        "modern": "Modern styles"
+      },
+      "price": "from 25 CHF"
+    },
+    "child": {
+      "title": "Children's Cut",
+      "description": "Cut for the little ones in a caring environment",
+      "features": {
+        "gentle": "Gentle approach",
+        "adapted": "Adapted styles",
+        "parents": "Parents welcome"
+      },
+      "price": "from 20 CHF"
+    },
+    "additional": {
+      "title": "Additional Services",
+      "subtitle": "Complete your experience with our additional services",
+      "products": {
+        "title": "Care Products",
+        "description": "Sale of premium products for home care"
+      },
+      "gifts": {
+        "title": "Gift Cards",
+        "description": "Give your loved ones a unique experience"
+      },
+      "events": {
+        "title": "Events",
+        "description": "Home services for weddings and special occasions"
+      },
+      "groups": {
+        "title": "Groups",
+        "description": "Preferential rates for groups and companies"
+      }
+    },
+    "process": {
+      "title": "Our Process",
+      "subtitle": "A methodical approach for a perfect result",
+      "consultation": {
+        "title": "Consultation",
+        "description": "Analysis of your needs and personalized advice"
+      },
+      "preparation": {
+        "title": "Preparation",
+        "description": "Shampoo and preparation with premium products"
+      },
+      "execution": {
+        "title": "Execution",
+        "description": "Cut and care with professional techniques"
+      },
+      "finishing": {
+        "title": "Finishing",
+        "description": "Final styling and care tips"
+      }
+    },
+    "cta": {
+      "title": "Book Your Appointment",
+      "subtitle": "Contact us now to benefit from our professional services"
+    },
+    "book": "Book"
+  },
+  "about": {
+    "hero": {
+      "title": "About Barber Metropole",
+      "subtitle": "For over 10 years, we have been perpetuating the art of men's hairdressing in Lausanne, combining traditional know-how with modern techniques for a unique experience.",
+      "years": "Years",
+      "clients": "Clients",
+      "experts": "Experts"
+    },
+    "story": {
+      "title": "Our Story",
+      "content1": "Barber Metropole was born in 2014 with a simple vision: to create a space where the traditional art of barbering meets modern style and service requirements.",
+      "content2": "Located in the heart of Lausanne, Rue des Terreaux 25, our salon has become a reference for style-conscious men. We have built our reputation on the excellence of our services and the quality of our welcome.",
+      "content3": "Today, our team of experienced barbers continues to innovate while preserving the ancestral techniques that make the richness of our craft."
+    },
+    "values": {
+      "title": "Our Values",
+      "subtitle": "The principles that guide our daily work",
+      "excellence": {
+        "title": "Excellence",
+        "description": "We strive for excellence in every cut, every service, every interaction with our clients."
+      },
+      "trust": {
+        "title": "Trust",
+        "description": "We build lasting relationships based on trust and customer satisfaction."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "We stay at the forefront of trends while respecting traditional techniques."
+      },
+      "passion": {
+        "title": "Passion",
+        "description": "Our passion for the art of men's hairdressing guides each of our actions."
+      }
+    },
+    "team": {
+      "title": "Our Team",
+      "subtitle": "Passionate professionals at your service"
+    },
+    "testimonials": {
+      "title": "What Our Clients Say",
+      "subtitle": "Their satisfaction is our most beautiful reward"
+    },
+    "location": {
+      "title": "Find Us",
+      "address": "Address",
+      "hours": "Opening Hours",
+      "phone": "Phone",
+      "bookNow": "Book Now",
+      "callNow": "Call Now",
+      "schedule": {
+        "weekdays": "Mon-Fri: 9:00 AM - 7:00 PM",
+        "saturday": "Sat: 8:00 AM - 5:00 PM",
+        "sunday": "Sun: Closed"
+      }
+    }
+  },
+  "pricing": {
+    "hero": {
+      "title": "Our Pricing",
+      "subtitle": "Transparent prices for exceptional services. Choose the formula that suits you best."
+    },
+    "plans": {
+      "essential": {
+        "name": "Essential",
+        "description": "Perfect for a well-groomed everyday look",
+        "features": {
+          "haircut": "Personalized men's haircut",
+          "shampoo": "Shampoo included",
+          "precision": "Precise finishing",
+          "advice": "Style advice"
+        }
+      },
+      "premium": {
+        "name": "Premium",
+        "description": "The complete experience for a perfect style",
+        "features": {
+          "haircut": "Premium men's haircut",
+          "beard": "Beard trimming and shaping",
+          "shampoo": "Shampoo and care",
+          "hot": "Hot finishing",
+          "advice": "Personalized advice",
+          "products": "Premium products"
+        }
+      },
+      "luxury": {
+        "name": "Luxury",
+        "description": "The pinnacle of masculine refinement",
+        "features": {
+          "complete": "Complete premium service",
+          "shave": "Traditional shave",
+          "facial": "Facial care",
+          "massage": "Relaxing massage",
+          "premium": "High-end products",
+          "drink": "Complimentary drink",
+          "duration": "Duration: 90 minutes"
+        }
+      },
+      "popular": "⭐ Most Popular"
+    },
+    "additional": {
+      "title": "À la Carte Services",
+      "subtitle": "Complete your experience with our additional services",
+      "services": {
+        "beardOnly": "Beard trimming only",
+        "shave": "Traditional shave",
+        "child": "Children's cut (-12 years)",
+        "student": "Student rate (with ID)",
+        "facial": "Facial care",
+        "shampoo": "Shampoo + styling"
+      }
+    },
+    "packages": {
+      "title": "Advantage Cards",
+      "subtitle": "Save with our subscription formulas",
+      "card5": {
+        "name": "5 Cuts Card",
+        "description": "Save on your regular cuts",
+        "validity": "6 months"
+      },
+      "card10": {
+        "name": "10 Cuts Card",
+        "description": "The best value for money",
+        "validity": "12 months"
+      },
+      "original": "Original",
+      "discount": "Discount",
+      "savings": "Savings",
+      "order": "Order"
+    },
+    "offers": {
+      "students": {
+        "title": "Students",
+        "description": "-30% with student ID"
+      },
+      "groups": {
+        "title": "Groups",
+        "description": "Preferential rates for 3 people and more"
+      },
+      "gifts": {
+        "title": "Gift Cards",
+        "description": "The perfect gift for your loved ones"
+      }
+    },
+    "cta": {
+      "title": "Ready to Book?",
+      "subtitle": "Contact us now to make an appointment and benefit from our attractive rates",
+      "email": "Email"
+    },
+    "book": "Book"
+  },
+  "contact": {
+    "hero": {
+      "title": "Contact Us",
+      "subtitle": "Make an appointment or contact us for any questions. Our team is at your disposal to offer you the best service."
+    },
+    "info": {
+      "address": {
+        "title": "Address",
+        "action": "View on map"
+      },
+      "phone": {
+        "title": "Phone",
+        "action": "Call"
+      },
+      "email": {
+        "title": "Email",
+        "action": "Send email"
+      },
+      "hours": {
+        "title": "Opening Hours"
+      }
+    },
+    "form": {
+      "title": "Appointment Request",
+      "subtitle": "Fill out this form and we will contact you quickly to confirm your appointment.",
+      "name": "Full Name",
+      "email": "Email",
+      "phone": "Phone",
+      "service": "Desired Service",
+      "message": "Message",
+      "placeholder": {
+        "name": "Your name",
+        "email": "your@email.com",
+        "phone": "+41 XX XXX XX XX",
+        "message": "Specify your preferences, desired time slots..."
+      },
+      "selectService": "Select a service",
+      "send": "Send Request",
+      "required": "*"
+    },
+    "quick": {
+      "title": "Need an Urgent Appointment?",
+      "subtitle": "Call us directly for immediate appointment booking or for any questions."
+    },
+    "hours": {
+      "title": "Opening Hours",
+      "weekdays": "Monday - Friday",
+      "saturday": "Saturday",
+      "sunday": "Sunday",
+      "closed": "Closed",
+      "times": {
+        "weekdays": "9:00 AM - 7:00 PM",
+        "saturday": "8:00 AM - 5:00 PM"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Find answers to your questions quickly",
+      "questions": {
+        "appointment": {
+          "question": "Do I need to make an appointment?",
+          "answer": "We strongly recommend making an appointment to guarantee your time slot. You can call us or use our contact form."
+        },
+        "payment": {
+          "question": "Do you accept credit cards?",
+          "answer": "Yes, we accept all major credit cards, cash payments and Twint."
+        },
+        "duration": {
+          "question": "How long does a haircut take?",
+          "answer": "A simple cut takes about 45 minutes, a complete service about 60-90 minutes depending on your needs."
+        },
+        "parking": {
+          "question": "Is there parking nearby?",
+          "answer": "Several public parking lots are available nearby, including Parking de la Riponne, 2 minutes walk away."
+        }
+      }
+    }
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "subtitle": "Sorry, the page you are looking for does not exist or has been moved.",
+    "home": "Back to Home",
+    "contact": "Contact Us"
+  },
+  "common": {
+    "phone": "+41 21 311 15 32",
+    "address": "Rue des Terreaux 25, 1003 Lausanne, Switzerland",
+    "email": "info@barber-metropole.ch"
+  }
+}

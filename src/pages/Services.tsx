@@ -1,64 +1,91 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import { AnimatedSection } from '../components/AnimatedSection';
 import { MaterialIcon } from '../components/MaterialIcon';
 
 const Services: React.FC = () => {
+  const { t } = useTranslation();
+
   const services = [
     {
       icon: 'content_cut',
-      title: 'Coupe Homme',
-      description: 'Coupe moderne ou classique adaptée à votre style et morphologie',
-      features: ['Consultation personnalisée', 'Shampoing inclus', 'Finition précise'],
-      price: 'dès 35 CHF',
+      title: t('services.haircut.title'),
+      description: t('services.haircut.description'),
+      features: [
+        t('services.haircut.features.consultation'),
+        t('services.haircut.features.shampoo'),
+        t('services.haircut.features.precision')
+      ],
+      price: t('services.haircut.price'),
       image: 'https://images.pexels.com/photos/1319460/pexels-photo-1319460.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop'
     },
     {
       icon: 'face',
-      title: 'Taille de Barbe',
-      description: 'Modelage et entretien professionnel de votre barbe',
-      features: ['Taille précise', 'Soin hydratant', 'Conseils d\'entretien'],
-      price: 'dès 25 CHF',
+      title: t('services.beard.title'),
+      description: t('services.beard.description'),
+      features: [
+        t('services.beard.features.precision'),
+        t('services.beard.features.care'),
+        t('services.beard.features.advice')
+      ],
+      price: t('services.beard.price'),
       image: 'https://images.pexels.com/photos/1043473/pexels-photo-1043473.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop'
     },
     {
       icon: 'spa',
-      title: 'Rasage Traditionnel',
-      description: 'Rasage à l\'ancienne avec serviette chaude et produits premium',
-      features: ['Serviette chaude', 'Rasoir traditionnel', 'Soin après-rasage'],
-      price: 'dès 40 CHF',
+      title: t('services.shave.title'),
+      description: t('services.shave.description'),
+      features: [
+        t('services.shave.features.towel'),
+        t('services.shave.features.razor'),
+        t('services.shave.features.aftercare')
+      ],
+      price: t('services.shave.price'),
       image: 'https://images.pexels.com/photos/1570807/pexels-photo-1570807.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop'
     },
     {
       icon: 'auto_awesome',
-      title: 'Service Complet',
-      description: 'Coupe + barbe + soins pour un look parfait',
-      features: ['Coupe personnalisée', 'Taille de barbe', 'Soins premium'],
-      price: 'dès 50 CHF',
+      title: t('services.complete.title'),
+      description: t('services.complete.description'),
+      features: [
+        t('services.complete.features.haircut'),
+        t('services.complete.features.beard'),
+        t('services.complete.features.premium')
+      ],
+      price: t('services.complete.price'),
       image: 'https://images.pexels.com/photos/1040880/pexels-photo-1040880.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop'
     },
     {
       icon: 'school',
-      title: 'Tarif Étudiant',
-      description: 'Coupe spéciale pour étudiants avec carte valide',
-      features: ['Prix préférentiel', 'Même qualité', 'Styles modernes'],
-      price: 'dès 25 CHF',
+      title: t('services.student.title'),
+      description: t('services.student.description'),
+      features: [
+        t('services.student.features.price'),
+        t('services.student.features.quality'),
+        t('services.student.features.modern')
+      ],
+      price: t('services.student.price'),
       image: 'https://images.pexels.com/photos/1212984/pexels-photo-1212984.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop'
     },
     {
       icon: 'child_care',
-      title: 'Coupe Enfant',
-      description: 'Coupe adaptée aux plus jeunes dans un environnement bienveillant',
-      features: ['Approche douce', 'Styles adaptés', 'Parents bienvenus'],
-      price: 'dès 20 CHF',
+      title: t('services.child.title'),
+      description: t('services.child.description'),
+      features: [
+        t('services.child.features.gentle'),
+        t('services.child.features.adapted'),
+        t('services.child.features.parents')
+      ],
+      price: t('services.child.price'),
       image: 'https://images.pexels.com/photos/1300402/pexels-photo-1300402.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop'
     }
   ];
 
   const additionalServices = [
-    { icon: 'local_mall', title: 'Produits de Soin', description: 'Vente de produits premium pour l\'entretien à domicile' },
-    { icon: 'card_giftcard', title: 'Cartes Cadeaux', description: 'Offrez une expérience unique à vos proches' },
-    { icon: 'event', title: 'Événements', description: 'Services à domicile pour mariages et événements spéciaux' },
-    { icon: 'group', title: 'Groupes', description: 'Tarifs préférentiels pour les groupes et entreprises' }
+    { icon: 'local_mall', title: t('services.additional.products.title'), description: t('services.additional.products.description') },
+    { icon: 'card_giftcard', title: t('services.additional.gifts.title'), description: t('services.additional.gifts.description') },
+    { icon: 'event', title: t('services.additional.events.title'), description: t('services.additional.events.description') },
+    { icon: 'group', title: t('services.additional.groups.title'), description: t('services.additional.groups.description') }
   ];
 
   return (
@@ -68,11 +95,10 @@ const Services: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <AnimatedSection animation="fadeInUp">
             <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">
-              Nos Services
+              {t('services.hero.title')}
             </h1>
             <p className="text-xl text-blue-100 max-w-3xl mx-auto">
-              Découvrez notre gamme complète de services de coiffure masculine, 
-              alliant tradition et modernité pour un résultat exceptionnel.
+              {t('services.hero.subtitle')}
             </p>
           </AnimatedSection>
         </div>
@@ -118,7 +144,7 @@ const Services: React.FC = () => {
                       className="w-full bg-gradient-to-r from-blue-600 to-indigo-600 text-white py-3 rounded-xl font-semibold hover:from-blue-700 hover:to-indigo-700 transition-all duration-200 flex items-center justify-center space-x-2 group-hover:scale-105"
                     >
                       <MaterialIcon name="phone" size="small" />
-                      <span>Réserver</span>
+                      <span>{t('services.book')}</span>
                     </a>
                   </div>
                 </div>
@@ -134,10 +160,10 @@ const Services: React.FC = () => {
           <AnimatedSection animation="fadeInUp">
             <div className="text-center mb-16">
               <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-                Services Additionnels
+                {t('services.additional.title')}
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                Complétez votre expérience avec nos services supplémentaires
+                {t('services.additional.subtitle')}
               </p>
             </div>
           </AnimatedSection>
@@ -164,20 +190,20 @@ const Services: React.FC = () => {
           <AnimatedSection animation="fadeInUp">
             <div className="text-center mb-16">
               <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-                Notre Processus
+                {t('services.process.title')}
               </h2>
               <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-                Une approche méthodique pour un résultat parfait
+                {t('services.process.subtitle')}
               </p>
             </div>
           </AnimatedSection>
 
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             {[
-              { step: '01', title: 'Consultation', description: 'Analyse de vos besoins et conseils personnalisés' },
-              { step: '02', title: 'Préparation', description: 'Shampoing et préparation avec produits premium' },
-              { step: '03', title: 'Réalisation', description: 'Coupe et soins avec techniques professionnelles' },
-              { step: '04', title: 'Finition', description: 'Styling final et conseils d\'entretien' }
+              { step: '01', title: t('services.process.consultation.title'), description: t('services.process.consultation.description') },
+              { step: '02', title: t('services.process.preparation.title'), description: t('services.process.preparation.description') },
+              { step: '03', title: t('services.process.execution.title'), description: t('services.process.execution.description') },
+              { step: '04', title: t('services.process.finishing.title'), description: t('services.process.finishing.description') }
             ].map((process, index) => (
               <AnimatedSection key={index} animation="fadeInUp" delay={index * 150}>
                 <div className="text-center">
@@ -198,17 +224,17 @@ const Services: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <AnimatedSection animation="fadeInUp">
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-              Réservez Votre Rendez-vous
+              {t('services.cta.title')}
             </h2>
             <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-              Contactez-nous dès maintenant pour bénéficier de nos services professionnels
+              {t('services.cta.subtitle')}
             </p>
             <a
               href="tel:+41213111532"
               className="inline-flex items-center space-x-2 bg-white text-blue-600 px-8 py-4 rounded-xl font-bold text-lg hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 shadow-2xl"
             >
               <MaterialIcon name="phone" />
-              <span>+41 21 311 15 32</span>
+              <span>{t('common.phone')}</span>
             </a>
           </AnimatedSection>
         </div>

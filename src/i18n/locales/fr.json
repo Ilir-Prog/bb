@@ -1,0 +1,405 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "services": "Services",
+    "about": "À Propos",
+    "pricing": "Tarifs",
+    "contact": "Contact",
+    "book": "Réserver"
+  },
+  "languages": {
+    "de": "Deutsch",
+    "en": "English",
+    "fr": "Français"
+  },
+  "home": {
+    "hero": {
+      "title": "Barber Metropole",
+      "subtitle": "L'art de la coiffure masculine à Lausanne. Style, tradition et modernité dans un cadre professionnel et chaleureux.",
+      "bookNow": "Réserver Maintenant",
+      "ourServices": "Nos Services"
+    },
+    "features": {
+      "title": "Pourquoi Nous Choisir ?",
+      "subtitle": "Une expérience unique alliant savoir-faire traditionnel et techniques modernes",
+      "modern": {
+        "title": "Coupes Modernes",
+        "description": "Styles contemporains et classiques adaptés à votre personnalité"
+      },
+      "beard": {
+        "title": "Soins Barbe",
+        "description": "Taille, modelage et soins premium pour votre barbe"
+      },
+      "fast": {
+        "title": "Service Rapide",
+        "description": "Rendez-vous flexibles et service efficace"
+      },
+      "expertise": {
+        "title": "Expertise",
+        "description": "Plus de 10 ans d'expérience dans l'art de la coiffure masculine"
+      }
+    },
+    "stats": {
+      "clients": "Clients Satisfaits",
+      "experience": "Années d'Expérience",
+      "experts": "Barbiers Experts",
+      "services": "Services Proposés"
+    },
+    "cta": {
+      "title": "Prêt pour un Nouveau Style ?",
+      "subtitle": "Prenez rendez-vous dès aujourd'hui et découvrez l'excellence de nos services",
+      "phone": "+41 21 311 15 32",
+      "findUs": "Nous Trouver"
+    }
+  },
+  "services": {
+    "hero": {
+      "title": "Nos Services",
+      "subtitle": "Découvrez notre gamme complète de services de coiffure masculine, alliant tradition et modernité pour un résultat exceptionnel."
+    },
+    "haircut": {
+      "title": "Coupe Homme",
+      "description": "Coupe moderne ou classique adaptée à votre style et morphologie",
+      "features": {
+        "consultation": "Consultation personnalisée",
+        "shampoo": "Shampoing inclus",
+        "precision": "Finition précise"
+      },
+      "price": "dès 35 CHF"
+    },
+    "beard": {
+      "title": "Taille de Barbe",
+      "description": "Modelage et entretien professionnel de votre barbe",
+      "features": {
+        "precision": "Taille précise",
+        "care": "Soin hydratant",
+        "advice": "Conseils d'entretien"
+      },
+      "price": "dès 25 CHF"
+    },
+    "shave": {
+      "title": "Rasage Traditionnel",
+      "description": "Rasage à l'ancienne avec serviette chaude et produits premium",
+      "features": {
+        "towel": "Serviette chaude",
+        "razor": "Rasoir traditionnel",
+        "aftercare": "Soin après-rasage"
+      },
+      "price": "dès 40 CHF"
+    },
+    "complete": {
+      "title": "Service Complet",
+      "description": "Coupe + barbe + soins pour un look parfait",
+      "features": {
+        "haircut": "Coupe personnalisée",
+        "beard": "Taille de barbe",
+        "premium": "Soins premium"
+      },
+      "price": "dès 50 CHF"
+    },
+    "student": {
+      "title": "Tarif Étudiant",
+      "description": "Coupe spéciale pour étudiants avec carte valide",
+      "features": {
+        "price": "Prix préférentiel",
+        "quality": "Même qualité",
+        "modern": "Styles modernes"
+      },
+      "price": "dès 25 CHF"
+    },
+    "child": {
+      "title": "Coupe Enfant",
+      "description": "Coupe adaptée aux plus jeunes dans un environnement bienveillant",
+      "features": {
+        "gentle": "Approche douce",
+        "adapted": "Styles adaptés",
+        "parents": "Parents bienvenus"
+      },
+      "price": "dès 20 CHF"
+    },
+    "additional": {
+      "title": "Services Additionnels",
+      "subtitle": "Complétez votre expérience avec nos services supplémentaires",
+      "products": {
+        "title": "Produits de Soin",
+        "description": "Vente de produits premium pour l'entretien à domicile"
+      },
+      "gifts": {
+        "title": "Cartes Cadeaux",
+        "description": "Offrez une expérience unique à vos proches"
+      },
+      "events": {
+        "title": "Événements",
+        "description": "Services à domicile pour mariages et événements spéciaux"
+      },
+      "groups": {
+        "title": "Groupes",
+        "description": "Tarifs préférentiels pour les groupes et entreprises"
+      }
+    },
+    "process": {
+      "title": "Notre Processus",
+      "subtitle": "Une approche méthodique pour un résultat parfait",
+      "consultation": {
+        "title": "Consultation",
+        "description": "Analyse de vos besoins et conseils personnalisés"
+      },
+      "preparation": {
+        "title": "Préparation",
+        "description": "Shampoing et préparation avec produits premium"
+      },
+      "execution": {
+        "title": "Réalisation",
+        "description": "Coupe et soins avec techniques professionnelles"
+      },
+      "finishing": {
+        "title": "Finition",
+        "description": "Styling final et conseils d'entretien"
+      }
+    },
+    "cta": {
+      "title": "Réservez Votre Rendez-vous",
+      "subtitle": "Contactez-nous dès maintenant pour bénéficier de nos services professionnels"
+    },
+    "book": "Réserver"
+  },
+  "about": {
+    "hero": {
+      "title": "À Propos de Barber Metropole",
+      "subtitle": "Depuis plus de 10 ans, nous perpétuons l'art de la coiffure masculine à Lausanne, alliant savoir-faire traditionnel et techniques modernes pour offrir une expérience unique.",
+      "years": "Années",
+      "clients": "Clients",
+      "experts": "Experts"
+    },
+    "story": {
+      "title": "Notre Histoire",
+      "content1": "Barber Metropole a vu le jour en 2014 avec une vision simple : créer un espace où l'art traditionnel de la barberie rencontre les exigences modernes de style et de service.",
+      "content2": "Situé au cœur de Lausanne, rue des Terreaux 25, notre salon est devenu une référence pour les hommes soucieux de leur apparence. Nous avons bâti notre réputation sur l'excellence de nos services et la qualité de notre accueil.",
+      "content3": "Aujourd'hui, notre équipe de barbiers expérimentés continue d'innover tout en préservant les techniques ancestrales qui font la richesse de notre métier."
+    },
+    "values": {
+      "title": "Nos Valeurs",
+      "subtitle": "Les principes qui guident notre travail au quotidien",
+      "excellence": {
+        "title": "Excellence",
+        "description": "Nous visons l'excellence dans chaque coupe, chaque service, chaque interaction avec nos clients."
+      },
+      "trust": {
+        "title": "Confiance",
+        "description": "Nous construisons des relations durables basées sur la confiance et la satisfaction client."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "Nous restons à la pointe des tendances tout en respectant les techniques traditionnelles."
+      },
+      "passion": {
+        "title": "Passion",
+        "description": "Notre passion pour l'art de la coiffure masculine guide chacune de nos actions."
+      }
+    },
+    "team": {
+      "title": "Notre Équipe",
+      "subtitle": "Des professionnels passionnés à votre service"
+    },
+    "testimonials": {
+      "title": "Ce Que Disent Nos Clients",
+      "subtitle": "Leur satisfaction est notre plus belle récompense"
+    },
+    "location": {
+      "title": "Nous Trouver",
+      "address": "Adresse",
+      "hours": "Horaires",
+      "phone": "Téléphone",
+      "bookNow": "Réserver Maintenant",
+      "callNow": "Appeler Maintenant",
+      "schedule": {
+        "weekdays": "Lun-Ven: 9h00 - 19h00",
+        "saturday": "Sam: 8h00 - 17h00",
+        "sunday": "Dim: Fermé"
+      }
+    }
+  },
+  "pricing": {
+    "hero": {
+      "title": "Nos Tarifs",
+      "subtitle": "Des prix transparents pour des services d'exception. Choisissez la formule qui vous correspond le mieux."
+    },
+    "plans": {
+      "essential": {
+        "name": "Essentiel",
+        "description": "Parfait pour un look soigné au quotidien",
+        "features": {
+          "haircut": "Coupe homme personnalisée",
+          "shampoo": "Shampoing inclus",
+          "precision": "Finition précise",
+          "advice": "Conseils de style"
+        }
+      },
+      "premium": {
+        "name": "Premium",
+        "description": "L'expérience complète pour un style parfait",
+        "features": {
+          "haircut": "Coupe homme premium",
+          "beard": "Taille et modelage de barbe",
+          "shampoo": "Shampoing et soins",
+          "hot": "Finition à chaud",
+          "advice": "Conseils personnalisés",
+          "products": "Produits premium"
+        }
+      },
+      "luxury": {
+        "name": "Luxe",
+        "description": "Le summum du raffinement masculin",
+        "features": {
+          "complete": "Service complet premium",
+          "shave": "Rasage traditionnel",
+          "facial": "Soins du visage",
+          "massage": "Massage relaxant",
+          "premium": "Produits haut de gamme",
+          "drink": "Boisson offerte",
+          "duration": "Durée: 90 minutes"
+        }
+      },
+      "popular": "⭐ Plus Populaire"
+    },
+    "additional": {
+      "title": "Services à la Carte",
+      "subtitle": "Complétez votre expérience avec nos services additionnels",
+      "services": {
+        "beardOnly": "Taille de barbe seule",
+        "shave": "Rasage traditionnel",
+        "child": "Coupe enfant (-12 ans)",
+        "student": "Coupe étudiant (avec carte)",
+        "facial": "Soins du visage",
+        "shampoo": "Shampoing + coiffage"
+      }
+    },
+    "packages": {
+      "title": "Cartes Avantages",
+      "subtitle": "Économisez avec nos formules d'abonnement",
+      "card5": {
+        "name": "Carte 5 Coupes",
+        "description": "Économisez sur vos coupes régulières",
+        "validity": "6 mois"
+      },
+      "card10": {
+        "name": "Carte 10 Coupes",
+        "description": "Le meilleur rapport qualité-prix",
+        "validity": "12 mois"
+      },
+      "original": "Original",
+      "discount": "Remise",
+      "savings": "Économie",
+      "order": "Commander"
+    },
+    "offers": {
+      "students": {
+        "title": "Étudiants",
+        "description": "-30% sur présentation de la carte étudiant"
+      },
+      "groups": {
+        "title": "Groupes",
+        "description": "Tarifs préférentiels pour 3 personnes et plus"
+      },
+      "gifts": {
+        "title": "Cartes Cadeaux",
+        "description": "Le cadeau parfait pour vos proches"
+      }
+    },
+    "cta": {
+      "title": "Prêt à Réserver ?",
+      "subtitle": "Contactez-nous dès maintenant pour prendre rendez-vous et bénéficier de nos tarifs attractifs",
+      "email": "Email"
+    },
+    "book": "Réserver"
+  },
+  "contact": {
+    "hero": {
+      "title": "Contactez-Nous",
+      "subtitle": "Prenez rendez-vous ou contactez-nous pour toute question. Notre équipe est à votre disposition pour vous offrir le meilleur service."
+    },
+    "info": {
+      "address": {
+        "title": "Adresse",
+        "action": "Voir sur la carte"
+      },
+      "phone": {
+        "title": "Téléphone",
+        "action": "Appeler"
+      },
+      "email": {
+        "title": "Email",
+        "action": "Envoyer un email"
+      },
+      "hours": {
+        "title": "Horaires"
+      }
+    },
+    "form": {
+      "title": "Demande de Rendez-vous",
+      "subtitle": "Remplissez ce formulaire et nous vous recontacterons rapidement pour confirmer votre rendez-vous.",
+      "name": "Nom complet",
+      "email": "Email",
+      "phone": "Téléphone",
+      "service": "Service souhaité",
+      "message": "Message",
+      "placeholder": {
+        "name": "Votre nom",
+        "email": "votre@email.com",
+        "phone": "+41 XX XXX XX XX",
+        "message": "Précisez vos préférences, créneaux souhaités..."
+      },
+      "selectService": "Sélectionnez un service",
+      "send": "Envoyer la Demande",
+      "required": "*"
+    },
+    "quick": {
+      "title": "Besoin d'un Rendez-vous Urgent ?",
+      "subtitle": "Appelez-nous directement pour une prise de rendez-vous immédiate ou pour toute question."
+    },
+    "hours": {
+      "title": "Horaires d'Ouverture",
+      "weekdays": "Lundi - Vendredi",
+      "saturday": "Samedi",
+      "sunday": "Dimanche",
+      "closed": "Fermé",
+      "times": {
+        "weekdays": "9h00 - 19h00",
+        "saturday": "8h00 - 17h00"
+      }
+    },
+    "faq": {
+      "title": "Questions Fréquentes",
+      "subtitle": "Trouvez rapidement les réponses à vos questions",
+      "questions": {
+        "appointment": {
+          "question": "Dois-je prendre rendez-vous ?",
+          "answer": "Nous recommandons fortement de prendre rendez-vous pour garantir votre créneau. Vous pouvez nous appeler ou utiliser notre formulaire de contact."
+        },
+        "payment": {
+          "question": "Acceptez-vous les cartes de crédit ?",
+          "answer": "Oui, nous acceptons toutes les cartes de crédit principales ainsi que les paiements en espèces et par Twint."
+        },
+        "duration": {
+          "question": "Combien de temps dure une coupe ?",
+          "answer": "Une coupe simple dure environ 45 minutes, un service complet environ 60-90 minutes selon vos besoins."
+        },
+        "parking": {
+          "question": "Y a-t-il un parking à proximité ?",
+          "answer": "Plusieurs parkings publics sont disponibles à proximité. Le plus proche est le parking de la Riponne, à 2 minutes à pied de notre salon."
+        }
+      }
+    }
+  },
+  "notFound": {
+    "title": "Page Non Trouvée",
+    "subtitle": "Désolé, la page que vous recherchez n'existe pas ou a été déplacée.",
+    "home": "Retour à l'Accueil",
+    "contact": "Nous Contacter"
+  },
+  "common": {
+    "phone": "+41 21 311 15 32",
+    "address": "Rue des Terreaux 25, 1003 Lausanne, Suisse",
+    "email": "info@barber-metropole.ch"
+  }
+}

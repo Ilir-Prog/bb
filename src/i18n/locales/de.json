@@ -1,0 +1,405 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "services": "Dienstleistungen",
+    "about": "Über uns",
+    "pricing": "Preise",
+    "contact": "Kontakt",
+    "book": "Termin buchen"
+  },
+  "languages": {
+    "de": "Deutsch",
+    "en": "English",
+    "fr": "Français"
+  },
+  "home": {
+    "hero": {
+      "title": "Barber Metropole",
+      "subtitle": "Die Kunst der Herrenfrisur in Lausanne. Stil, Tradition und Modernität in einem professionellen und herzlichen Ambiente.",
+      "bookNow": "Jetzt buchen",
+      "ourServices": "Unsere Dienstleistungen"
+    },
+    "features": {
+      "title": "Warum uns wählen?",
+      "subtitle": "Ein einzigartiges Erlebnis, das traditionelles Handwerk mit modernen Techniken verbindet",
+      "modern": {
+        "title": "Moderne Schnitte",
+        "description": "Zeitgenössische und klassische Stile, angepasst an Ihre Persönlichkeit"
+      },
+      "beard": {
+        "title": "Bartpflege",
+        "description": "Schneiden, Formen und Premium-Pflege für Ihren Bart"
+      },
+      "fast": {
+        "title": "Schneller Service",
+        "description": "Flexible Termine und effizienter Service"
+      },
+      "expertise": {
+        "title": "Expertise",
+        "description": "Über 10 Jahre Erfahrung in der Kunst der Herrenfrisur"
+      }
+    },
+    "stats": {
+      "clients": "Zufriedene Kunden",
+      "experience": "Jahre Erfahrung",
+      "experts": "Experten-Friseure",
+      "services": "Angebotene Services"
+    },
+    "cta": {
+      "title": "Bereit für einen neuen Stil?",
+      "subtitle": "Vereinbaren Sie noch heute einen Termin und entdecken Sie die Exzellenz unserer Dienstleistungen",
+      "phone": "+41 21 311 15 32",
+      "findUs": "Uns finden"
+    }
+  },
+  "services": {
+    "hero": {
+      "title": "Unsere Dienstleistungen",
+      "subtitle": "Entdecken Sie unser komplettes Angebot an Herrenfrisur-Dienstleistungen, die Tradition und Modernität für ein außergewöhnliches Ergebnis verbinden."
+    },
+    "haircut": {
+      "title": "Herrenhaarschnitt",
+      "description": "Moderner oder klassischer Schnitt, angepasst an Ihren Stil und Ihre Gesichtsform",
+      "features": {
+        "consultation": "Persönliche Beratung",
+        "shampoo": "Shampoo inklusive",
+        "precision": "Präzise Veredelung"
+      },
+      "price": "ab 35 CHF"
+    },
+    "beard": {
+      "title": "Bartschnitt",
+      "description": "Professionelle Formung und Pflege Ihres Bartes",
+      "features": {
+        "precision": "Präziser Schnitt",
+        "care": "Feuchtigkeitspflege",
+        "advice": "Pflegetipps"
+      },
+      "price": "ab 25 CHF"
+    },
+    "shave": {
+      "title": "Traditionelle Rasur",
+      "description": "Altmodische Rasur mit heißem Handtuch und Premium-Produkten",
+      "features": {
+        "towel": "Heißes Handtuch",
+        "razor": "Traditioneller Rasierer",
+        "aftercare": "After-Shave Pflege"
+      },
+      "price": "ab 40 CHF"
+    },
+    "complete": {
+      "title": "Komplettservice",
+      "description": "Haarschnitt + Bart + Pflege für einen perfekten Look",
+      "features": {
+        "haircut": "Personalisierter Schnitt",
+        "beard": "Bartschnitt",
+        "premium": "Premium-Pflege"
+      },
+      "price": "ab 50 CHF"
+    },
+    "student": {
+      "title": "Studententarif",
+      "description": "Spezieller Schnitt für Studenten mit gültigem Ausweis",
+      "features": {
+        "price": "Vorzugspreis",
+        "quality": "Gleiche Qualität",
+        "modern": "Moderne Stile"
+      },
+      "price": "ab 25 CHF"
+    },
+    "child": {
+      "title": "Kinderschnitt",
+      "description": "Schnitt für die Kleinsten in einer freundlichen Umgebung",
+      "features": {
+        "gentle": "Sanfter Ansatz",
+        "adapted": "Angepasste Stile",
+        "parents": "Eltern willkommen"
+      },
+      "price": "ab 20 CHF"
+    },
+    "additional": {
+      "title": "Zusätzliche Dienstleistungen",
+      "subtitle": "Vervollständigen Sie Ihr Erlebnis mit unseren zusätzlichen Services",
+      "products": {
+        "title": "Pflegeprodukte",
+        "description": "Verkauf von Premium-Produkten für die Pflege zu Hause"
+      },
+      "gifts": {
+        "title": "Geschenkkarten",
+        "description": "Schenken Sie Ihren Lieben ein einzigartiges Erlebnis"
+      },
+      "events": {
+        "title": "Veranstaltungen",
+        "description": "Hausbesuche für Hochzeiten und besondere Anlässe"
+      },
+      "groups": {
+        "title": "Gruppen",
+        "description": "Vorzugspreise für Gruppen und Unternehmen"
+      }
+    },
+    "process": {
+      "title": "Unser Prozess",
+      "subtitle": "Ein methodischer Ansatz für ein perfektes Ergebnis",
+      "consultation": {
+        "title": "Beratung",
+        "description": "Analyse Ihrer Bedürfnisse und persönliche Beratung"
+      },
+      "preparation": {
+        "title": "Vorbereitung",
+        "description": "Shampoo und Vorbereitung mit Premium-Produkten"
+      },
+      "execution": {
+        "title": "Durchführung",
+        "description": "Schnitt und Pflege mit professionellen Techniken"
+      },
+      "finishing": {
+        "title": "Veredelung",
+        "description": "Finales Styling und Pflegetipps"
+      }
+    },
+    "cta": {
+      "title": "Buchen Sie Ihren Termin",
+      "subtitle": "Kontaktieren Sie uns jetzt, um von unseren professionellen Dienstleistungen zu profitieren"
+    },
+    "book": "Buchen"
+  },
+  "about": {
+    "hero": {
+      "title": "Über Barber Metropole",
+      "subtitle": "Seit über 10 Jahren pflegen wir die Kunst der Herrenfrisur in Lausanne und verbinden traditionelles Handwerk mit modernen Techniken für ein einzigartiges Erlebnis.",
+      "years": "Jahre",
+      "clients": "Kunden",
+      "experts": "Experten"
+    },
+    "story": {
+      "title": "Unsere Geschichte",
+      "content1": "Barber Metropole wurde 2014 mit einer einfachen Vision gegründet: einen Raum zu schaffen, wo die traditionelle Kunst der Barbierkunst auf moderne Stil- und Serviceanforderungen trifft.",
+      "content2": "Im Herzen von Lausanne, Rue des Terreaux 25, ist unser Salon zu einer Referenz für stilbewusste Männer geworden. Wir haben unseren Ruf auf der Exzellenz unserer Dienstleistungen und der Qualität unserer Betreuung aufgebaut.",
+      "content3": "Heute setzt unser Team erfahrener Friseure weiterhin auf Innovation und bewahrt gleichzeitig die traditionellen Techniken, die den Reichtum unseres Handwerks ausmachen."
+    },
+    "values": {
+      "title": "Unsere Werte",
+      "subtitle": "Die Prinzipien, die unsere tägliche Arbeit leiten",
+      "excellence": {
+        "title": "Exzellenz",
+        "description": "Wir streben nach Exzellenz in jedem Schnitt, jedem Service, jeder Interaktion mit unseren Kunden."
+      },
+      "trust": {
+        "title": "Vertrauen",
+        "description": "Wir bauen dauerhafte Beziehungen auf, die auf Vertrauen und Kundenzufriedenheit basieren."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "Wir bleiben an der Spitze der Trends und respektieren gleichzeitig traditionelle Techniken."
+      },
+      "passion": {
+        "title": "Leidenschaft",
+        "description": "Unsere Leidenschaft für die Kunst der Herrenfrisur leitet jede unserer Handlungen."
+      }
+    },
+    "team": {
+      "title": "Unser Team",
+      "subtitle": "Leidenschaftliche Profis zu Ihren Diensten"
+    },
+    "testimonials": {
+      "title": "Was unsere Kunden sagen",
+      "subtitle": "Ihre Zufriedenheit ist unsere schönste Belohnung"
+    },
+    "location": {
+      "title": "Uns finden",
+      "address": "Adresse",
+      "hours": "Öffnungszeiten",
+      "phone": "Telefon",
+      "bookNow": "Jetzt buchen",
+      "callNow": "Jetzt anrufen",
+      "schedule": {
+        "weekdays": "Mo-Fr: 9:00 - 19:00",
+        "saturday": "Sa: 8:00 - 17:00",
+        "sunday": "So: Geschlossen"
+      }
+    }
+  },
+  "pricing": {
+    "hero": {
+      "title": "Unsere Preise",
+      "subtitle": "Transparente Preise für außergewöhnliche Dienstleistungen. Wählen Sie die Formel, die am besten zu Ihnen passt."
+    },
+    "plans": {
+      "essential": {
+        "name": "Essential",
+        "description": "Perfekt für einen gepflegten Alltags-Look",
+        "features": {
+          "haircut": "Personalisierter Herrenhaarschnitt",
+          "shampoo": "Shampoo inklusive",
+          "precision": "Präzise Veredelung",
+          "advice": "Stil-Beratung"
+        }
+      },
+      "premium": {
+        "name": "Premium",
+        "description": "Das komplette Erlebnis für einen perfekten Stil",
+        "features": {
+          "haircut": "Premium Herrenhaarschnitt",
+          "beard": "Bartschnitt und -formung",
+          "shampoo": "Shampoo und Pflege",
+          "hot": "Heiße Veredelung",
+          "advice": "Persönliche Beratung",
+          "products": "Premium-Produkte"
+        }
+      },
+      "luxury": {
+        "name": "Luxus",
+        "description": "Der Gipfel der männlichen Raffinesse",
+        "features": {
+          "complete": "Kompletter Premium-Service",
+          "shave": "Traditionelle Rasur",
+          "facial": "Gesichtspflege",
+          "massage": "Entspannungsmassage",
+          "premium": "Hochwertige Produkte",
+          "drink": "Getränk inklusive",
+          "duration": "Dauer: 90 Minuten"
+        }
+      },
+      "popular": "⭐ Am beliebtesten"
+    },
+    "additional": {
+      "title": "À-la-Carte Services",
+      "subtitle": "Vervollständigen Sie Ihr Erlebnis mit unseren zusätzlichen Services",
+      "services": {
+        "beardOnly": "Nur Bartschnitt",
+        "shave": "Traditionelle Rasur",
+        "child": "Kinderschnitt (-12 Jahre)",
+        "student": "Studententarif (mit Ausweis)",
+        "facial": "Gesichtspflege",
+        "shampoo": "Shampoo + Styling"
+      }
+    },
+    "packages": {
+      "title": "Vorteilskarten",
+      "subtitle": "Sparen Sie mit unseren Abonnement-Formeln",
+      "card5": {
+        "name": "5er-Karte Schnitte",
+        "description": "Sparen Sie bei Ihren regelmäßigen Schnitten",
+        "validity": "6 Monate"
+      },
+      "card10": {
+        "name": "10er-Karte Schnitte",
+        "description": "Das beste Preis-Leistungs-Verhältnis",
+        "validity": "12 Monate"
+      },
+      "original": "Original",
+      "discount": "Rabatt",
+      "savings": "Ersparnis",
+      "order": "Bestellen"
+    },
+    "offers": {
+      "students": {
+        "title": "Studenten",
+        "description": "-30% bei Vorlage des Studentenausweises"
+      },
+      "groups": {
+        "title": "Gruppen",
+        "description": "Vorzugspreise für 3 Personen und mehr"
+      },
+      "gifts": {
+        "title": "Geschenkkarten",
+        "description": "Das perfekte Geschenk für Ihre Lieben"
+      }
+    },
+    "cta": {
+      "title": "Bereit zu buchen?",
+      "subtitle": "Kontaktieren Sie uns jetzt, um einen Termin zu vereinbaren und von unseren attraktiven Preisen zu profitieren",
+      "email": "E-Mail"
+    },
+    "book": "Buchen"
+  },
+  "contact": {
+    "hero": {
+      "title": "Kontaktieren Sie uns",
+      "subtitle": "Vereinbaren Sie einen Termin oder kontaktieren Sie uns bei Fragen. Unser Team steht Ihnen zur Verfügung, um Ihnen den besten Service zu bieten."
+    },
+    "info": {
+      "address": {
+        "title": "Adresse",
+        "action": "Auf der Karte anzeigen"
+      },
+      "phone": {
+        "title": "Telefon",
+        "action": "Anrufen"
+      },
+      "email": {
+        "title": "E-Mail",
+        "action": "E-Mail senden"
+      },
+      "hours": {
+        "title": "Öffnungszeiten"
+      }
+    },
+    "form": {
+      "title": "Terminanfrage",
+      "subtitle": "Füllen Sie dieses Formular aus und wir werden Sie schnell kontaktieren, um Ihren Termin zu bestätigen.",
+      "name": "Vollständiger Name",
+      "email": "E-Mail",
+      "phone": "Telefon",
+      "service": "Gewünschter Service",
+      "message": "Nachricht",
+      "placeholder": {
+        "name": "Ihr Name",
+        "email": "ihre@email.com",
+        "phone": "+41 XX XXX XX XX",
+        "message": "Geben Sie Ihre Präferenzen, gewünschte Zeiten an..."
+      },
+      "selectService": "Service auswählen",
+      "send": "Anfrage senden",
+      "required": "*"
+    },
+    "quick": {
+      "title": "Brauchen Sie einen dringenden Termin?",
+      "subtitle": "Rufen Sie uns direkt an für eine sofortige Terminvereinbarung oder bei Fragen."
+    },
+    "hours": {
+      "title": "Öffnungszeiten",
+      "weekdays": "Montag - Freitag",
+      "saturday": "Samstag",
+      "sunday": "Sonntag",
+      "closed": "Geschlossen",
+      "times": {
+        "weekdays": "9:00 - 19:00",
+        "saturday": "8:00 - 17:00"
+      }
+    },
+    "faq": {
+      "title": "Häufig gestellte Fragen",
+      "subtitle": "Finden Sie schnell Antworten auf Ihre Fragen",
+      "questions": {
+        "appointment": {
+          "question": "Muss ich einen Termin vereinbaren?",
+          "answer": "Wir empfehlen dringend, einen Termin zu vereinbaren, um Ihren Zeitslot zu garantieren. Sie können uns anrufen oder unser Kontaktformular verwenden."
+        },
+        "payment": {
+          "question": "Akzeptieren Sie Kreditkarten?",
+          "answer": "Ja, wir akzeptieren alle gängigen Kreditkarten, Barzahlungen und Twint."
+        },
+        "duration": {
+          "question": "Wie lange dauert ein Haarschnitt?",
+          "answer": "Ein einfacher Schnitt dauert etwa 45 Minuten, ein kompletter Service etwa 60-90 Minuten je nach Ihren Bedürfnissen."
+        },
+        "parking": {
+          "question": "Gibt es Parkplätze in der Nähe?",
+          "answer": "Mehrere öffentliche Parkplätze sind in der Nähe verfügbar, insbesondere das Parking de la Riponne, 2 Gehminuten entfernt."
+        }
+      }
+    }
+  },
+  "notFound": {
+    "title": "Seite nicht gefunden",
+    "subtitle": "Entschuldigung, die Seite, die Sie suchen, existiert nicht oder wurde verschoben.",
+    "home": "Zurück zur Startseite",
+    "contact": "Kontaktieren Sie uns"
+  },
+  "common": {
+    "phone": "+41 21 311 15 32",
+    "address": "Rue des Terreaux 25, 1003 Lausanne, Schweiz",
+    "email": "info@barber-metropole.ch"
+  }
+}
