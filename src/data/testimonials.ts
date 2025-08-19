@@ -40,5 +40,13 @@ export const testimonials: Testimonial[] = [
     rating: 5,
     image: ""
   },
+  {
+    id: 1,
+    name: "Daniel Cardoso",
+    role: "Client régulier",
+    content: "Top notch, friendly barbers. Top notch service.",
+    rating: 5,
+    image: "https://lh3.googleusercontent.com/a-/ALV-UjVNtSJ2ywm2i6j2z6Q4Z5HhRTkYxeXdRdLWZtUKEKYpHMZ0j2lU=w90-h90-p-rp-mo-br100"
+  },
   
 ];
