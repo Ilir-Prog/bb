@@ -30,7 +30,7 @@ export const testimonials: Testimonial[] = [
     role: "Client régulier",
     content: "Best barber in Lausanne. Quick and always with smile!",
     rating: 5,
-    image: "https://lh3.googleusercontent.com/a-/ALV-UjXx00GKpcwIhBQu-qZJxih_1zyEp9BynbXDTZyQrz14-XlllfWlZg=w90-h90-p-rp-mo-br100"
+    image: "https://lh3.googleusercontent.com/a-/ALV-UjV8zI4SO72a-cJlcasp0XTqL37d9-5o87ibFC3GMAAVRsA7XqE=w90-h90-p-rp-mo-br100"
   },
   
 ];
