@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { AnimatedSection } from '../components/AnimatedSection';
 import { MaterialIcon } from '../components/MaterialIcon';
+import Footer from '../components/Footer';
 
 const Home: React.FC = () => {
   const { t } = useTranslation();
@@ -171,6 +172,9 @@ const Home: React.FC = () => {
           </AnimatedSection>
         </div>
       </section>
+
+      {/* Footer */}
+      <Footer />
     </div>
   );
 };

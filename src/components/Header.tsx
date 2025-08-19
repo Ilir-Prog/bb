@@ -40,6 +40,9 @@ const Header: React.FC = () => {
               alt="Barber Metropole Lausanne"
               className="h-12 w-auto group-hover:scale-105 transition-transform duration-200"
             />
+            <span className="text-xl font-bold text-gray-900 group-hover:text-blue-600 transition-colors duration-200">
+              Barber Metropole
+            </span>
           </Link>
 
           {/* Desktop Navigation */}
