@@ -129,7 +129,6 @@ const Services: React.FC = () => {
                       alt={service.title}
                       className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
                     <div className="absolute top-4 left-4 bg-white/90 backdrop-blur-sm p-3 rounded-xl">
                       <MaterialIcon name={service.icon} className="text-blue-600" size="large" />
                     </div>
