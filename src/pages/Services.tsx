@@ -150,14 +150,6 @@ const Services: React.FC = () => {
                         </li>
                       ))}
                     </ul>
-                    
-                    <a
-                      href="tel:+41213111532"
-                      className="w-full bg-gradient-to-r from-blue-600 to-indigo-600 text-white py-3 rounded-xl font-semibold hover:from-blue-700 hover:to-indigo-700 transition-all duration-200 flex items-center justify-center space-x-2 group-hover:scale-105"
-                    >
-                      <MaterialIcon name="phone" size="small" />
-                      <span>{t('services.book')}</span>
-                    </a>
                   </div>
                 </div>
               </AnimatedSection>
