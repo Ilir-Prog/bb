@@ -66,30 +66,6 @@ const Services: React.FC = () => {
       ],
       price: t('services.student.price'),
       image: 'https://images.pexels.com/photos/1212984/pexels-photo-1212984.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop'
-    },
-    {
-      icon: 'child_care',
-      title: t('services.child.title'),
-      description: t('services.child.description'),
-      features: [
-        t('services.child.features.gentle'),
-        t('services.child.features.adapted'),
-        t('services.child.features.parents')
-      ],
-      price: t('services.child.price'),
-      image: 'https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=720,h=720,fit=crop,trim=0;0;24.94061757719715;0/AzG8MM0DWGu7eykq/enfnt-AR076JyoDXcJoPDb.jpg'
-    },
-    {
-      icon: 'water_drop',
-      title: 'Shampoo + Styling',
-      description: 'Professional hair wash and styling service',
-      features: [
-        'Premium shampoo',
-        'Professional styling',
-        'Quick service'
-      ],
-      price: 'from 15 CHF',
-      image: 'https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=656,h=630,fit=crop/AzG8MM0DWGu7eykq/barbe-YKba5JN8vjUEGa1w.jpg'
     }
   ];
 
