@@ -23,7 +23,7 @@ export const testimonials: Testimonial[] = [
     content: "Fast pick-up without reservation, impeccable and tailor-made cut! The barber team is super cool. I recommend",
     rating: 5,
     image: "https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop"
-  }
+  },
   {
     id: 1,
     name: "Abdellatif ROUCHDI",
