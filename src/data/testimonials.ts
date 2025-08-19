@@ -17,14 +17,6 @@ export const testimonials: Testimonial[] = [
     image: "https://lh3.googleusercontent.com/a-/ALV-UjWkPeNdzyCDW11O4Y5TrMb00SsA74te0dvIEOOAgf_qgxVgbfBi=w90-h90-p-rp-mo-ba3-br100"
   },
   {
-    id: 1,
-    name: "Abdellatif ROUCHDI",
-    role: "Client régulier",
-    content: "Best barber in Lausanne. Quick and always with smile!",
-    rating: 5,
-    image: "https://lh3.googleusercontent.com/a-/ALV-UjXx00GKpcwIhBQu-qZJxih_1zyEp9BynbXDTZyQrz14-XlllfWlZg=w90-h90-p-rp-mo-br100"
-  },
-  {
     id: 3,
     name: "Christinat Axel",
     role: "Client régulier",
@@ -32,4 +24,13 @@ export const testimonials: Testimonial[] = [
     rating: 5,
     image: "https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop"
   }
+  {
+    id: 1,
+    name: "Abdellatif ROUCHDI",
+    role: "Client régulier",
+    content: "Best barber in Lausanne. Quick and always with smile!",
+    rating: 5,
+    image: "https://lh3.googleusercontent.com/a-/ALV-UjXx00GKpcwIhBQu-qZJxih_1zyEp9BynbXDTZyQrz14-XlllfWlZg=w90-h90-p-rp-mo-br100"
+  },
+  
 ];
