@@ -391,5 +391,22 @@
     "phone": "+41 21 311 15 32",
     "address": "Rue des Terreaux 25, 1003 Lausanne, Switzerland",
     "email": "info@barber-metropole.ch"
+  },
+  "footer": {
+    "navigation": "Navigation",
+    "services": "Our Services",
+    "contact": "Contact",
+    "address": {
+      "street": "Rue des Terreaux 25",
+      "city": "1003 Lausanne, Switzerland"
+    },
+    "hours": {
+      "weekdays": "Mon-Fri: 9:00 AM - 7:00 PM",
+      "saturday": "Sat: 8:00 AM - 5:00 PM",
+      "sunday": "Sun: Closed"
+    },
+    "copyright": "© 2024 Barber Metropole Lausanne. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use"
   }
 }

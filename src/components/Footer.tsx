@@ -15,12 +15,12 @@ const Footer: React.FC = () => {
   ];
 
   const services = [
-    'Coupe Homme',
-    'Taille de Barbe',
-    'Rasage Traditionnel',
-    'Service Complet',
-    'Coupe Étudiant',
-    'Coupe Enfant'
+    t('services.haircut.title'),
+    t('services.beard.title'),
+    t('pricing.additional.services.shave'),
+    t('services.complete.title'),
+    t('services.student.title'),
+    t('services.child.title')
   ];
 
   return (
@@ -38,8 +38,7 @@ const Footer: React.FC = () => {
               <span className="text-xl font-bold">Barber Metropole</span>
             </div>
             <p className="text-gray-300 leading-relaxed">
-              L'art de la coiffure masculine à Lausanne. Style, tradition et modernité 
-              dans un cadre professionnel et chaleureux.
+              {t('home.hero.subtitle')}
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-white transition-colors duration-200">
@@ -56,7 +55,7 @@ const Footer: React.FC = () => {
 
           {/* Quick Links */}
           <div>
-            <h3 className="text-lg font-bold mb-4">Navigation</h3>
+            <h3 className="text-lg font-bold mb-4">{t('footer.navigation')}</h3>
             <ul className="space-y-2">
               {quickLinks.map((link) => (
                 <li key={link.path}>
@@ -73,7 +72,7 @@ const Footer: React.FC = () => {
 
           {/* Services */}
           <div>
-            <h3 className="text-lg font-bold mb-4">Nos Services</h3>
+            <h3 className="text-lg font-bold mb-4">{t('footer.services')}</h3>
             <ul className="space-y-2">
               {services.map((service) => (
                 <li key={service}>
@@ -85,13 +84,13 @@ const Footer: React.FC = () => {
 
           {/* Contact Info */}
           <div>
-            <h3 className="text-lg font-bold mb-4">Contact</h3>
+            <h3 className="text-lg font-bold mb-4">{t('footer.contact')}</h3>
             <div className="space-y-3">
               <div className="flex items-start space-x-3">
                 <MaterialIcon name="location_on" className="text-blue-400 mt-1" />
                 <div className="text-gray-300">
-                  <p>Rue des Terreaux 25</p>
-                  <p>1003 Lausanne, Suisse</p>
+                  <p>{t('footer.address.street')}</p>
+                  <p>{t('footer.address.city')}</p>
                 </div>
               </div>
               
@@ -101,7 +100,7 @@ const Footer: React.FC = () => {
                   href="tel:+41213111532"
                   className="text-gray-300 hover:text-white transition-colors duration-200"
                 >
-                  +41 21 311 15 32
+                  {t('common.phone')}
                 </a>
               </div>
               
@@ -111,16 +110,16 @@ const Footer: React.FC = () => {
                   href="mailto:info@barber-metropole.ch"
                   className="text-gray-300 hover:text-white transition-colors duration-200"
                 >
-                  info@barber-metropole.ch
+                  {t('common.email')}
                 </a>
               </div>
               
               <div className="flex items-start space-x-3">
                 <MaterialIcon name="schedule" className="text-blue-400 mt-1" />
                 <div className="text-gray-300">
-                  <p>Lun-Ven: 9h00 - 19h00</p>
-                  <p>Sam: 8h00 - 17h00</p>
-                  <p>Dim: Fermé</p>
+                  <p>{t('footer.hours.weekdays')}</p>
+                  <p>{t('footer.hours.saturday')}</p>
+                  <p>{t('footer.hours.sunday')}</p>
                 </div>
               </div>
             </div>
@@ -130,14 +129,14 @@ const Footer: React.FC = () => {
         {/* Bottom Bar */}
         <div className="border-t border-gray-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm">
-            © 2024 Barber Metropole Lausanne. Tous droits réservés.
+            {t('footer.copyright')}
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors duration-200">
-              Politique de confidentialité
+              {t('footer.privacy')}
             </a>
             <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors duration-200">
-              Conditions d'utilisation
+              {t('footer.terms')}
             </a>
           </div>
         </div>
