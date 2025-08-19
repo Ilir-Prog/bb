@@ -70,13 +70,9 @@ const Home: React.FC = () => {
           
           <AnimatedSection animation="fadeInUp" delay={400}>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <a
-                href="tel:+41213111532"
-                className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-8 py-4 rounded-xl font-bold text-lg hover:from-blue-700 hover:to-indigo-700 transition-all duration-300 transform hover:scale-105 shadow-2xl hover:shadow-blue-500/25 flex items-center space-x-2"
-              >
-                <MaterialIcon name="phone" />
-                <span>{t('home.hero.bookNow')}</span>
-              </a>
+              <span className="text-white text-2xl font-bold">
+                +41 21 311 15 32
+              </span>
               <Link
                 to="/services"
                 className="border-2 border-white text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-white hover:text-gray-900 transition-all duration-300 flex items-center space-x-2"
