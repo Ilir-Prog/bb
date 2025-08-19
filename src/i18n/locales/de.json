@@ -77,15 +77,17 @@
       },
       "price": "ab 15 CHF"
     },
-    "shave": {
-      "title": "Traditionelle Rasur",
-      "description": "Altmodische Rasur mit heißem Handtuch und Premium-Produkten",
-      "features": {
-        "towel": "Heißes Handtuch",
-        "razor": "Traditioneller Rasierer",
-        "aftercare": "After-Shave Pflege"
-      },
-      "price": "ab 40 CHF"
+"shave": {
+  "title": "Haarschnitt + Bart",
+  "description": "Altmodische Rasur mit heißem Handtuch und Premium-Produkten",
+  "features": {
+    "towel": "Heißes Handtuch",
+    "razor": "Traditioneller Rasierer",
+    "aftercare": "After-Shave Pflege"
+  },
+  "price": "ab 35 CHF"
+}
+
     },
     "complete": {
       "title": "Komplettservice",
