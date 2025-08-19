@@ -69,14 +69,14 @@ const Services: React.FC = () => {
     },
     {
       icon: 'water_drop',
-      title: 'Shampoo + Styling',
-      description: 'Professional hair wash and styling service',
+      title: t('services.shampoo.title'),
+      description: t('services.shampoo.description'),
       features: [
-        'Premium shampoo',
-        'Professional styling',
-        'Quick service'
+        t('services.shampoo.features.premium'),
+        t('services.shampoo.features.styling'),
+        t('services.shampoo.features.quick')
       ],
-      price: 'from 15 CHF',
+      price: t('services.shampoo.price'),
       image: 'https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=656,h=630,fit=crop/AzG8MM0DWGu7eykq/barbe-YKba5JN8vjUEGa1w.jpg'
     }
   ];

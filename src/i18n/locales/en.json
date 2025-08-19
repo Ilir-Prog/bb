@@ -107,6 +107,16 @@
       },
       "price": "from 20 CHF"
     },
+    "shampoo": {
+      "title": "Shampoo + Styling",
+      "description": "Professional hair wash and styling service",
+      "features": {
+        "premium": "Premium shampoo",
+        "styling": "Professional styling",
+        "quick": "Quick service"
+      },
+      "price": "from 15 CHF"
+    },
     "additional": {
       "title": "Additional Services",
       "subtitle": "Complete your experience with our additional services",

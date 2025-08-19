@@ -107,6 +107,16 @@
       },
       "price": "dès 20 CHF"
     },
+    "shampoo": {
+      "title": "Shampoo + Coiffage",
+      "description": "Service professionnel de lavage et coiffage",
+      "features": {
+        "premium": "Shampoing premium",
+        "styling": "Coiffage professionnel",
+        "quick": "Service rapide"
+      },
+      "price": "dès 15 CHF"
+    },
     "additional": {
       "title": "Services Additionnels",
       "subtitle": "Complétez votre expérience avec nos services supplémentaires",
