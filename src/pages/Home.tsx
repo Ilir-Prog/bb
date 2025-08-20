@@ -46,7 +46,7 @@ const Home: React.FC = () => {
         <div 
           className="absolute inset-0 opacity-50"
           style={{
-            backgroundImage: 'url("https://images.pexels.com/photos/1319460/pexels-photo-1319460.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop")',
+            backgroundImage: 'url("https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/AzG8MM0DWGu7eykq/nb1-YbNZ44DRrLfrWMN5.jpg")',
             backgroundSize: 'cover',
             backgroundPosition: 'center'
           }}
