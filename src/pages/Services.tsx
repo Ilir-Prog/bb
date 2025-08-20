@@ -29,7 +29,7 @@ const Services: React.FC = () => {
         t('services.beard.features.advice')
       ],
       price: t('services.beard.price'),
-      image: 'https://images.unsplash.com/photo-1635273051839-003bf06a8751?ixid=M3wzOTE5Mjl8MHwxfHNlYXJjaHwxM3x8YmFyYmVyfGVufDB8fHx8MTcwMTY4NzA2Mnww&ixlib=rb-4.0.3&auto=format&fit=crop&w=656&h=630'
+      image: 'https://images.unsplash.com/photo-1503951914875-452162b0f3f1?ixid=M3wzOTE5Mjl8MHwxfHNlYXJjaHwyfHxiYXJiZXJ8ZW58MHx8fHwxNzAxNjg3MDYyfD'
     },
     {
       icon: 'auto_awesome',
